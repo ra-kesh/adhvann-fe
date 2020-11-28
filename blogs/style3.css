@@ -1,0 +1,404 @@
+
+
+#hero{
+    overflow: hidden;
+}
+.container{
+    max-width: 100%;
+}
+
+#hero #blog-hero #text-div{
+    margin-left: 5vw;
+}
+
+ lottie-player{
+   width: 60vw;
+}
+
+.blog-title a{
+    text-decoration: none;
+    color: black;
+}
+
+/* blog time line section */
+
+
+/* very very important the order aka cool stuff */
+
+.demo-card:nth-child(1) {
+    order: 1;
+    }
+    
+    .demo-card:nth-child(3) {
+    order: 2;
+    }
+    
+    .demo-card:nth-child(5) {
+    order: 3;
+    }
+    
+    .demo-card:nth-child(2) {
+    order: 4;
+    }
+    
+    .demo-card:nth-child(4) {
+    order: 5;
+    }
+    
+    .demo-card:nth-child(6) {
+    order: 6;
+    }
+    
+    /* Border Box */
+    * {
+    box-sizing: border-box;
+    }
+    
+    /* Fonts */
+    body {
+    font-family: Roboto;
+    }
+    
+    #timeline {
+    padding: 5rem 0;
+   
+    border-bottom: 1px solid rgba(191, 191, 191, 0.4);
+    }
+
+
+    #first{
+        border-top: 4px solid rgba(255, 34, 34, 0.705);
+        width: 70%;
+        margin-right: 0;
+    }
+    #second{
+        border-bottom: 2px solid rgba(236, 35, 35, 0.575);
+        width: 20%;
+        margin-left: 0;
+    }
+
+
+
+
+    #timeline h3 {
+    text-align: left;
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin-bottom: 20px;
+    margin-top: 0;
+    margin-left: 10vw;
+    font-family: Proza Libre;
+    }
+    #timeline p.leader {
+    text-align: left;
+    margin-left: 12vw;
+    margin-bottom: 45px;
+    font-size: 1.5rem;
+    }
+    #timeline .demo-card-wrapper {
+    position: relative;
+    margin: auto;
+    height: auto;
+    }
+    
+    /* container of cards both side  */
+    
+    @media (min-width: 1000px) {
+    #timeline .demo-card-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    width: 1170px;
+    height: 1650px;
+    margin: 0 auto;
+    }
+    }
+    
+    /* individual cards */
+    
+    #timeline .demo-card {
+    position: relative;
+    display: block;
+    margin: 10px auto 80px;
+    max-width: 94%;
+    z-index: 2;
+    box-shadow:  5px -5px 7px #606161, 
+             -5px 5px 7px #ffffff;
+
+
+
+    }
+    @media (min-width: 480px) {
+    #timeline .demo-card {
+    max-width: 60%;
+    box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
+    }
+    }
+    @media (min-width: 720px) {
+    #timeline .demo-card {
+    max-width: 40%;
+    }
+    }
+    
+    
+    /* very very important starts */
+    
+    
+    
+    @media (min-width: 1000px) {
+    #timeline .demo-card {
+    max-width: 450px;
+    height: 400px;
+    margin: 90px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    border-radius: 15px;
+    transition: all .4s ease-in-out;
+    border-bottom: 4px solid #fff;
+
+    }
+    
+    #timeline .demo-card:hover{
+        transform: translateY(-10px);
+        border-color: crimson;
+    }
+
+
+
+
+
+
+
+    /* left side card group */
+    #timeline .demo-card:nth-child(odd) {
+    margin-right: 45px;
+    }
+    
+    
+    /* right side card group */
+    #timeline .demo-card:nth-child(even) {
+    margin-left: 45px;
+    }
+    
+    /*the extra gap of left side group  */
+    #timeline .demo-card:nth-child(2) {
+    margin-top: 180px;
+    }
+    }
+    
+    /* very very important ends */
+    
+    
+    
+    /* card content img and text etc */
+    
+    #timeline .demo-card .body {
+    background: #fff;
+    border-top: 0;
+    border-radius: 20px;
+       
+    }
+
+    .body img{
+          border-radius: 10px;
+        }
+    
+
+    .demo-card .blog-title {
+        text-align: left;
+        padding: 0.5rem 1rem 0.3rem 1rem;
+        font-family: Proza Libre;
+    }
+
+    .demo-card .blog-tag{
+        font-family: Proza Libre;
+        padding-left: .6rem;
+        border-left:3px solid crimson;
+        margin-left: 1rem;
+        height: 2rem;
+        padding-top: .3rem;
+        background: rgb(236, 230, 230);
+        width: 60%;
+    }
+
+    
+    @media (min-width: 1000px) {
+    #timeline .demo-card .body {
+    height: 315px;
+    }
+    } 
+
+    .blog-title p {
+    font-size: 3vh !important;
+    line-height: 3.5vh !important;
+    margin-bottom: 15px;
+    }
+
+    #timeline .demo-card .body img {
+    display: block;
+    width: 100%;
+    }
+    
+
+    
+
+    #footer .container{
+        padding : 1.5rem 5rem ;
+       
+    }
+
+
+
+    /* mobile screens  */
+
+    @media only screen and  (max-width: 576px){
+        #blog-hero .hero-img {
+            padding: 10vw 10vw 0 10vw !important;
+            overflow: hidden !important;
+          }
+      
+          #blog-hero #blog-lottie lottie-player{
+            width:80vw !important;
+        }
+          #blog-hero #text-div {
+            margin: 0 !important;
+          }
+          #blog-slide {
+              height: 70vh !important;
+          }
+
+          #timeline h3{
+              font-size: 3vh !important;
+          }
+
+          #timeline p{
+              font-size: 2vh !important;
+          }
+
+          .demo-card{
+              height: 45vh !important;
+              border-radius: 10px !important;
+          }
+          #timeline .blog-tag p{
+              font-size: 10px !important;
+              
+          }
+
+          .blog-title{
+              padding-bottom: 3vh !important;
+              padding-top: 4vh !important;
+          }
+
+        
+    }
+    @media only screen and  (max-width: 400px){
+
+        .demo-card{
+            height: 50vh !important;
+            width: 90%;
+        }
+        #blog-slide {
+            height: 60vh !important;
+        }
+
+        
+    }
+    /* nexus 7  */
+    @media only screen and (min-width: 576px) and (max-width: 767px){
+        
+        #blog-hero #blog-lottie lottie-player{
+            width:80vw !important;
+        }
+        
+        .hero-img {
+            padding-left: 10vw !important;
+          } 
+          #blog-slide {
+            height: 50vh !important;
+        }
+        .demo-card{
+            height: 35vh !important;
+            border-radius: 10px !important;
+        }
+        .blog-title{
+            padding-bottom: 2vh !important;
+            padding-top: 3vh !important;
+        }
+        .blog-title p{
+            font-size: 2vh !important;
+            line-height: 2vh !important;
+        }
+        .blog-tag p{
+            font-size: 1.5vh !important;
+        }
+    }
+
+
+    /* ipad mini */
+    @media only screen and (min-width: 768px) and (max-width: 991px){
+        #blog-hero #blog-lottie lottie-player{
+            width:80vw !important;
+        }
+        #blog-slide {
+            height: 60vh !important;
+        }
+        
+        .hero-img {
+            padding-left: 10vw !important;
+          } 
+
+          #timeline .demo-card {
+            overflow: hidden;
+            max-width: 60%;
+            height: 40vh !important;
+            border-radius: 10px !important;
+            }
+            .blog-title{
+                padding-bottom: 2vh !important;
+                padding-top: 3vh !important;  
+            }
+            .blog-title p{
+                font-size: 2vh !important;
+            }
+    }
+    /* ipad pro */
+    @media only screen and (width: 1024px) and (height: 1366px) {
+        #timeline .demo-card-wrapper {
+            width: 100% !important;
+            height: 1650px;
+            }
+
+         #timeline .demo-card {
+                max-width: 35% !important;
+                }
+
+        .blog-title{
+            padding-bottom: 2vh !important;
+            padding-top: 3vh !important;  
+        }
+        .blog-title p{
+            font-size: 1.4vh !important;
+            line-height: 2vh !important;
+        }
+        .blog-tag p{
+            font-size: 1vh !important;
+        }
+
+
+    }
+
+    /* large screen */
+
+    @media only screen and (min-width: 992px) {
+        .blog-title{
+            padding-bottom: 2vh !important;
+            padding-top: 3vh !important;  
+        }     
+    }
+
+    @media only screen and (min-width: 1280px){
+        .blog-title P{
+            font-size: 2.5vh;
+        }
+
+    }
+

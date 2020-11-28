@@ -1,0 +1,322 @@
+#download-text h1{
+    padding-top: 5rem;
+    max-width: 70%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
+    /* font-size: 6vh !important; */
+
+}
+#download-text{
+    padding-left: 15rem;
+}
+.welcome-image{
+    margin-top: 5rem;
+    margin-left: 7rem;
+    width: 20vw;
+    height: 10vh;
+}
+.newsletter{
+    margin-top: 55rem;
+    background-color: #FE1264;
+    max-height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#newsletter-div{
+    margin-left: 5rem;
+    margin-top: 10rem;
+}
+
+.newsletter #newsletter-text{
+  color: white;
+}
+
+
+.newsletter #newsletter-image{
+    margin-top: 10rem;
+    width: 60vw;
+    padding-right: 5vw;
+
+}
+.newsletter form{
+    margin-left: 1.5rem;
+}
+.form-inline .container{
+    padding: 0;
+    margin: 0;
+}
+
+
+.form-inline #newsletter-button  {
+  color:white ;
+  height: 5.8vh;
+}
+.form-inline #newsletter-button:hover {
+    color : #FE1264;
+}
+
+
+  /* mobile screens  */
+
+  @media only screen and  (max-width: 576px){
+      .welcome-image img {
+          width: 50vw !important; 
+          margin-left: 3vw !important;
+
+      }
+
+       #download-text {
+           margin: 0 !important;
+           padding: 0 !important;
+           margin-top: 5vh !important;
+           height: 20vh !important;
+       }
+
+       #download-text h1 {
+        margin : auto !important;
+        padding: 0 !important;
+        font-size: 5vw !important;
+        line-height: 7vh !important;
+       }
+     
+       #download-div .newsletter{
+           margin-top: 60vh !important;
+       }
+
+       #newssvg-div {
+           padding: 0 !important;
+           margin: 0 !important;
+          
+       }
+       #newssvg-div  img{
+         padding: 0 !important;
+         margin: auto !important;
+         margin-top: 20vw !important;
+         margin-left: 5vw !important;
+         width: 90vw !important;
+         
+       }
+       #newsletter-div{
+       margin: 0 !important;
+    }
+    .newsletter #newsletter-text{
+        font-size: 3.5vh !important;
+        margin: auto !important;
+        text-align: center;
+      }
+
+      .form-inline {
+          width: 80vw !important;
+          padding-left: 10vw !important;
+      }
+      .form-inline #newsletter-button  {
+        height: 5vh;
+      }
+          
+  }
+
+  @media only screen and  (max-width: 400px) {
+    
+      .welcome-image{
+        margin-top: 5rem;
+        margin-left: 4.5rem;
+        width: 80% !important;
+    }
+    .welcome-image img {
+        width: 60vw !important; 
+        margin-left: 0 !important;
+    }
+    .form-inline {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 90vw !important;
+    }
+    .form-inline #newsletter-button  {
+        height: 5.8vh;
+      }
+  
+  }
+  @media only screen and  (min-width: 400px) and (max-width:500px){
+    .welcome-image{
+        margin-top: 5rem;
+        margin-left: 4.5rem;
+        width: 80% !important;
+        height: 10vh;
+    }
+    .welcome-image img {
+        width: 60vw !important; 
+        /* margin-left: 0 !important; */
+    }
+    .form-inline {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 90vw !important;
+    }
+    .form-inline #newsletter-button  {
+        height: 5vh;
+      }
+  }
+
+  /* for nexus 7 */
+
+  @media only screen and (min-width:576px) and (max-width: 767px) {
+
+
+    .welcome-image img {
+        width: 65vw !important ;
+        height: 70vh !important;
+
+    }
+
+    #download-text {
+        margin: 0 !important;
+        padding: 0 !important;
+        margin-top: 5vh !important;
+        height: 20vh !important;
+    }
+
+    #download-text h1 {
+        margin : auto !important;
+        padding: 0 !important;
+        font-size: 5vw !important;
+        line-height: 7vh !important;
+       }
+
+       #download-div .newsletter{
+        margin-top: 60vh !important;
+    }
+
+    #newssvg-div  img{
+        padding: 0 !important;
+        margin: auto !important;
+        margin-top: 20vw !important;
+        margin-left: 5vw !important;
+        width: 90vw !important;
+        
+      }
+      .newsletter #newsletter-text{
+        font-size: 3.5vh !important;
+        margin: auto !important;
+        text-align: center;
+      }
+
+      .form-inline {
+          width: 90vw !important;
+          padding-left: 10vw !important;
+      }
+      .form-inline #newsletter-button  {
+        height: 5vh;
+      }
+      #newsletter-div{
+        margin: 0 !important;
+     }
+     .form-inline #newsletter-button  {
+        height: 4vh;
+      }
+  }
+
+   /* Ipad MINI screen 768px */
+
+   @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .welcome-image img {
+        width: 65vw !important ;
+        height: 70vh !important;
+        margin-left: 5vw !important;
+
+    }
+    #download-text {
+        margin: 0 !important;
+        padding: 0 !important;
+        margin-top: 5vh !important;
+        height: 20vh !important;
+    }
+    #download-text h1 {
+        margin : auto !important;
+        padding: 0 !important;
+        font-size: 5vw !important;
+        line-height: 7vh !important;
+       }
+       #download-div .newsletter{
+        margin-top: 60vh !important;
+    }
+    #newssvg-div  img{
+        padding: 0 !important;
+        margin: auto !important;
+        margin-top: 20vw !important;
+        margin-left: 5vw !important;
+        width: 90vw !important;   
+      }
+      .newsletter #newsletter-text{
+        font-size: 3.5vh !important;
+        margin: auto !important;
+        text-align: center;
+      }
+      .form-inline {
+          width: 100vw !important;
+          padding-left: 20vw !important;
+          height: 5vh!important;
+      }
+      .form-inline #newsletter-button  {
+        height: 5vh;
+      }
+      #newsletter-div{
+        margin: 0 !important;
+     }
+     .form-inline #newsletter-button  {
+        height: 3.8vh;
+        padding: y 0;
+      }
+   }
+
+   /* ipad pro screen 1024px */
+
+   @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .welcome-image img {
+        width: 65vw !important ;
+        height: 70vh !important;
+        margin-left: 5vw !important;
+    }
+    #download-text {
+        margin: 0 !important;
+        padding: 0 !important;
+        margin-top: 5vh !important;
+        height: 20vh !important;
+    }
+    #download-text h1 {
+        margin : auto !important;
+        padding: 0 !important;
+        font-size: 5vw !important;
+        line-height: 7vh !important;
+       }
+       #download-div .newsletter{
+        margin-top: 60vh !important;
+    }
+      .newsletter #newsletter-text{
+        font-size: 3.5vh !important;
+        /* margin: auto !important; */
+      } 
+
+     .form-inline #newsletter-button  {
+        height: 3vh;
+      } 
+   }
+    /* large laptops */
+
+    @media only screen and (min-width: 1280px) {
+        #download-text h1{
+            width: 75vw !important;
+           
+        }
+        #download-text {
+            padding-left: 18vw !important;
+        }
+        .newsletter #newsletter-text{
+            font-size: 7vh !important;
+          }
+          .form-inline #newsletter-button  {
+            height: 5vh;
+          }  
+
+    }

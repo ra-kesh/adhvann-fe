@@ -1,0 +1,29 @@
+.post-title{
+    display: flexbox;
+    height:40vh;
+    padding-left: 23rem;
+    justify-content: center;
+    padding-top: 6rem;
+
+}
+.post-title h1{
+    padding: 1rem;
+}
+.post-img1{
+    padding-bottom: 2rem;
+}
+
+
+
+.post-title p{
+    padding-left: 5rem;
+}
+
+.post-wrapper{
+    
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+hr{
+    border-top: 2px solid black;
+}
